@@ -1,0 +1,7 @@
+{
+  "repo": "trustfuture/simon-skills",
+  "branch": "master",
+  "sha": "3ad0a25127c17da48a0e869c9efbf4136c40848b",
+  "date": "2026-09-26",
+  "note": "更新时用 compare API 对比本 sha 与上游最新 sha，覆盖拷贝后重跑 _workbuddy_adapt.py"
+}
