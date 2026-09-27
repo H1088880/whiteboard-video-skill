@@ -176,4 +176,15 @@ $W build "<标题>"                        # scenes → tts → render → mix �
 >    - 结论：**贴纸一律走第 4 条的 ImageGen 兜底**，不要试图先去登录 codex。除非用户给出可用出口
 >      （可访问 OpenAI 的代理地址 / OpenAI API Key 走 `codex login --with-api-key` / 别处登录拷回
 >      `~/.codex/auth.json`）。
+> 8. **出片三件套环境修正（2026-09-28 实测，《宣传片是怎么钩住人的》全流程跑通）**：
+>    - **ffmpeg PATH**：winget `Links/` 下的 ffmpeg.exe 是 shim，node `spawnSync` 会报 **EFTYPE**；
+>      必须把**真身 bin 目录**放进 PATH 再跑 `wb build`：
+>      `/c/Users/ADMIN/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-9.0.2-full_build/bin`。
+>      Remotion 内置 ffmpeg（n7.1）解不了 image2pipe 的 jpeg，**不能**当备胎。
+>    - **Chromium 截图崩溃**（"Unable to capture screenshot" / "browser has been closed"）：
+>      已给 `lib/render.js` 的 `openPage()` 加 `--disable-gpu` + 3 次启动重试；同时 config `render.workers`
+>      要保持 **1**（本机 4 路并发必挂；单路 86s 片约 1 分钟，可接受）。
+>    - **wb mix EBUSY（pid:0）**：按第 6 条把 spawnargs 手拼成命令直调；若 Bash 沙箱拦 ffmpeg，
+>      改用 **PowerShell 工具**跑 `ffmpeg -c copy -movflags +faststart`，产物再拷回 `outputs/final.mp4`。
+>      cover/clean 没跑完就单独补 `wb cover`。
 

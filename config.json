@@ -25,7 +25,7 @@
     "fps": 30,
     "leadSeconds": 0.3,
     "holdSeconds": 0.7,
-    "workers": 4,
+    "workers": 1,
     "_note": "workers=并行出帧的页面数（每页一个 Chromium 渲染进程，交错截图，成片逐帧一致）；1=老的单页串行",
     "pen": {
       "speed": 1000,
