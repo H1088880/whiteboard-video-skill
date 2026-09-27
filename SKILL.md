@@ -184,6 +184,10 @@ $W build "<标题>"                        # scenes → tts → render → mix �
 >    - **Chromium 截图崩溃**（"Unable to capture screenshot" / "browser has been closed"）：
 >      已给 `lib/render.js` 的 `openPage()` 加 `--disable-gpu` + 3 次启动重试；同时 config `render.workers`
 >      要保持 **1**（本机 4 路并发必挂；单路 86s 片约 1 分钟，可接受）。
+>      **崩溃固定在同一帧 ≈ 内存不足**（`GlobalMemoryStatusEx` 查：内存负载 >85% 时 Chromium 渲染进程被系统杀，
+>      静默无 stderr，重试无效）。已给 `encodeFrames` 加**页面轮换**：`seek(t)` 无状态，每 150 帧
+>      `page.reload()` 后用 `mountScene()` 重装场景，逐帧结果不变；2026-09-28 实测 86% 负载下
+>      原来必在第 300 帧崩，改后 3300 帧全程稳定。
 >    - **wb mix EBUSY（pid:0）**：按第 6 条把 spawnargs 手拼成命令直调；若 Bash 沙箱拦 ffmpeg，
 >      改用 **PowerShell 工具**跑 `ffmpeg -c copy -movflags +faststart`，产物再拷回 `outputs/final.mp4`。
 >      cover/clean 没跑完就单独补 `wb cover`。
