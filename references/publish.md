@@ -35,7 +35,7 @@
 
 ## 合规
 
-三条勾完再交付，见 `../video-common/references/compliance.md`。白板讲公众人物时尤其注意第一条：标题让事件或公司做主语。
+三条勾完再交付，见 `references/common/compliance.md`。白板讲公众人物时尤其注意第一条：标题让事件或公司做主语。
 
 ## 交付
 

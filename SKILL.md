@@ -15,7 +15,7 @@ visibility: "public"
 
 工具就是本仓库（下文 `<仓库>`），CLI 是 `<仓库>/bin/wb`，参数全在 `<仓库>/config.json`。每期内容在 `config.json` 的 `dirs.projects`（默认 `<仓库>/episodes/<日期 标题>/`），中间产物与成片在 `dirs.build`（默认 `<仓库>/build/<日期 标题>/`）。
 
-本文件只讲流程与规矩。细节按需翻：`references/dsl.md`（场景与封面 API）、`references/scene-patterns.md`（版式坐标）、`references/stickers.md`（贴纸、真实 Logo、真人漫画像）、`references/publish.md`（标题与发布文案）；公共工序在同级的 `../video-common/`：`references/fact-check.md`（查证）、`references/compliance.md`（合规）、`references/delivery-qa.md`（验收）。
+本文件只讲流程与规矩。细节按需翻：`references/dsl.md`（场景与封面 API）、`references/scene-patterns.md`（版式坐标）、`references/stickers.md`（贴纸、真实 Logo、真人漫画像）、`references/publish.md`（标题与发布文案）；公共工序在本仓库的 `references/common/`：`fact-check.md`（查证）、`compliance.md`（合规）、`delivery-qa.md`（验收）、`cover-qa.md`（封面验收）、`platform-copy.md`（发布文案机制）。
 
 ## 硬规矩
 
@@ -24,7 +24,7 @@ visibility: "public"
 3. **先旁白后画面。** 旁白按 `|` 切 beat，每 beat 3~4 句配一组元素；6~8 个场景，成片 2~2.5 分钟（1.2 倍语速下约 500~600 字）。
 4. **画布 1920×1080。y≥960 是字幕区，右上 320×130 是水印区**，元素不进去；`wb scenes` 的 ⚠ 必须清零。
 5. **公司、产品、模型用真实 Logo；人物、器械、物件用贴纸；文字、箭头、框用 Excalidraw。** 讲到具体公司时主角用官方 Logo（`wb logo`），不用生图拟人机器人代指，观众认不出是谁。讲到具体公众人物时用真人照片参考的漫画像（`wb image ... --ref=照片 --likeness`，见 `references/stickers.md`），不用通用小人代指。Excalidraw 画人很丑，人和物件一律出贴纸。
-6. **事实先查再写。** 数字、日期、价格要有来源，写进期目录 `README.md`；估算值在旁白和文案里都标"据报道/估算"。查证动作见 `../video-common/references/fact-check.md`。
+6. **事实先查再写。** 数字、日期、价格要有来源，写进期目录 `README.md`；估算值在旁白和文案里都标"据报道/估算"。查证动作见 `references/common/fact-check.md`。
 7. **品牌层自动带，不用每期写。** 右上角手写水印（第一场景逐笔画入）、片尾品牌卡（5.5 秒，静音）、封面上的品牌标都由工具生成，名字、品牌色、slogan 在 `config.json` 的 `brand`；标题和点睛色优先用 `C.brand`。
 8. **交付四件套：成片 + 两张封面 + `发布.md`**，主用标题和视频号简介直接贴在回复里。
 
@@ -72,12 +72,12 @@ $W build "<标题>"                        # scenes → tts → render → mix �
 ### 6. 出片与验收
 - `wb build`。抽 2~3 帧看（`ffmpeg -ss <t> -i final.mp4 -frames:v 1 x.png`）：字幕在底、水印在右上、贴纸擦出正常；片尾看一眼 `99-brand`。
 - 看 `字幕.srt` 前几条：原文拼写、数字未拆。
-- 机器检查与交付边界按 `../video-common/references/delivery-qa.md`。
+- 机器检查与交付边界按 `references/common/delivery-qa.md`。
 - `README.md` 写好，时长以 `ffprobe` 为准。
 
 ### 7. 发布文案与标题
 - 按 `references/publish.md`：5 个标题候选（数字反差 / 事件主语 / 结论前置 / 生活单位换算 / 提问）选 1 主用；视频号简介、小红书标题+正文+标签、B 站标题、公众号摘要、评论区置顶。
-- 数字与 `README.md` 一致；合规自查勾完（`../video-common/references/compliance.md`）。
+- 数字与 `README.md` 一致；合规自查勾完（`references/common/compliance.md`）。
 - 填 `发布.md`，交付四件套。
 
 ## 修改类请求怎么接
