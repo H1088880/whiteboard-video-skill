@@ -14,7 +14,7 @@
 
 <img src="assets/sample-covers.jpg" width="640" alt="4:3 横版和 3:4 竖版两张封面：两行大标题，钩子行品牌色加马克笔高亮，主角贴纸，左下品牌标">
 
-样片和封面里的 "Your Brand" 是占位品牌，改 `config.json` 一处就换成你的。
+样片和封面里的品牌水印读的是 `config.json` 的 `brand.name`（当前是「未智境AI」），一处改成你自己的。
 
 ## 它是怎么做的
 
