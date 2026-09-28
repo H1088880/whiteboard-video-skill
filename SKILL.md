@@ -10,6 +10,8 @@ description_en: "Hand-drawn whiteboard explainer video: Excalidraw stroke animat
 visibility: "public"
 ---
 > 中文触发词：白板视频、边画边讲、手绘讲解视频、excalidraw 视频、whiteboard video。
+>
+> 来源与署名：本项目由 [trustfuture/simon-skills](https://github.com/trustfuture/simon-skills) 的 `skills/whiteboard-video` 改造而来，原作者 [trustfuture](https://github.com/trustfuture)，原项目 MIT 许可；上游版权声明与协议保留在 `LICENSE`。
 
 # whiteboard-video：白板讲解视频出片
 

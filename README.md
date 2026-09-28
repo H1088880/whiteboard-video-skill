@@ -4,6 +4,8 @@
 
 不露脸，不开剪辑软件，画面上每一笔都是代码画的。
 
+> **来源与署名**：本项目由 [trustfuture/simon-skills](https://github.com/trustfuture/simon-skills) 中的 `skills/whiteboard-video` 改造而来，**原作者 [trustfuture](https://github.com/trustfuture)，原项目以 MIT 许可发布**。本仓库在其基础上做了剥离画廊画风耦合、内联 `video-common` 公共工序、Windows 出片环境适配与若干缺陷修复。上游的版权声明与 MIT 许可已完整保留在根目录 `LICENSE`。
+
 ## 先看样片
 
 **▶️ [assets/sample-preview.mp4](assets/sample-preview.mp4)**（成片前 40 秒，点进去在 GitHub 页面里直接播放）。完整示例工程在 `examples/`，一条命令就能在你电脑上重新渲染出来。
@@ -110,6 +112,7 @@ bin/wb build 计划                         # 出片
 ## 许可
 
 - 代码与文档：MIT，见根目录 `LICENSE`。
+- **署名**：原始代码来自 [trustfuture/simon-skills](https://github.com/trustfuture/simon-skills)（MIT，Copyright (c) 2026 trustfuture）；本仓库的修改与增补部分 Copyright (c) 2026 H1088880。
 - `assets/fonts/Xiaolai-Regular.ttf`：[小赖字体](https://github.com/lxgw/kose-font)，SIL Open Font License 1.1，许可证见 `assets/fonts/OFL.txt`。
 - `examples/` 里的贴纸由 codex 生成，随示例一起提供，可自由使用。
 - 用 `wb logo` 取到的公司 Logo 版权归各自所有者，只适合在评论和报道语境中原样使用。
