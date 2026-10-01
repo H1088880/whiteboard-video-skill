@@ -25,7 +25,7 @@
     "fps": 30,
     "leadSeconds": 0.3,
     "holdSeconds": 0.7,
-    "workers": 1,
+    "workers": 4,
     "_note": "workers=并行出帧的页面数（每页一个 Chromium 渲染进程，交错截图，成片逐帧一致）；1=老的单页串行",
     "pen": {
       "speed": 1000,
@@ -37,9 +37,14 @@
         0.2
       ],
       "overflow": 0.35,
+      "beatFill": 0.75,
+      "cueSync": true,
+      "cueFinish": 0.7,
+      "cueMinSeconds": 0.38,
       "travelMax": 1.6,
-      "_note": "speed=描边像素/秒；fillSpeed=斜线填充像素/秒；minSeconds=每个元素最短绘制时长；gapSeconds=两笔之间抬笔间隙；charSeconds=[最小,最大] 每个汉字的书写秒数（按字号/700 取，拉丁字母减半）；overflow=一个 beat 画不完时最多溢出到下一段的比例；travelMax=抬笔移动最长秒数，超过就中途藏笔；fillMaxSeconds=单个图形填充（斜线/实底）最长秒数",
-      "fillMaxSeconds": 1.2
+      "_note": "speed=描边像素/秒；fillSpeed=斜线填充像素/秒；minSeconds=每个元素最短绘制时长；gapSeconds=两笔之间抬笔间隙；charSeconds=[最小,最大] 每个汉字的书写秒数（按字号/700 取，拉丁字母减半）；overflow=一个 beat 画不完时最多溢出到下一段的比例；beatFill=无字幕 cue 时（片尾卡/未配字幕）本段旁白窗口内画完绘制的比例（0.75=前 75% 画完，剩余静止，1=铺满整段=画面永远慢半拍）；cueSync=有字幕时按句对齐绘制（一段旁白切成多条 cue，每条 cue 对应的笔画在该句念完前画完，解决「字幕比动画快」）；cueFinish=该句念到多少时收笔（0.9=句末前收笔）；cueMinSeconds=每组笔画的最短窗口，避免笔速被压得过快；travelMax=抬笔移动最长秒数，超过就中途藏笔；fillMaxSeconds=单个图形填充（斜线/实底）最长秒数",
+      "fillMaxSeconds": 1.2,
+      "minScale": 0.15
     }
   },
   "captions": {
@@ -49,21 +54,25 @@
     "safeTop": 960,
     "minChars": 6,
     "maxChars": 20,
-    "leadSeconds": 0.08,
+    "leadSeconds": 0.02,
+    "delaySeconds": 0.18,
     "tailSeconds": 0.25,
-    "_note": "烧录字幕：小赖字体、墨色 + 纸色描边，居中于底部；safeTop 以下 110px 留给字幕，场景元素别越界（wb scenes 会警告）。SRT 另存期目录 字幕.srt"
+    "_note": "烧录字幕：小赖字体、墨色 + 纸色描边，居中于底部；safeTop 以下 110px 留给字幕，场景元素别越界（wb scenes 会警告）。SRT 另存期目录 字幕.srt。delaySeconds=整条字幕后移（配合 pen.beatFill 让画面领先字幕），leadSeconds=再往前抢的量"
   },
+  "theme": "",
+  "theme_note": "每期内容主题色（scenes.js 里 use(__dirname,{theme}) 也可按期覆盖）：'' = 默认品牌蓝+黄高亮；预设 warm/ocean/forest/berry/grape，或任意 #hex 自动派生浅底与高亮。一个主色贯穿标题/眉标/卡片/高亮/大数字（参考 SimonTalk 每期一个主色）",
   "brand": {
     "name": "未智境AI",
     "slogan": "把复杂的事，讲明白。",
-    "accent": "#2f9e44",
+    "accent": "#2573fd",
     "ink": "#1e1e1e",
-    "logo": "",
+    "logo": "assets/weizhijing-ai.png",
     "watermark": {
       "enabled": true,
       "position": "top-right",
-      "opacity": 0.72,
-      "size": 36,
+      "opacity": 0.9,
+      "size": 40,
+      "logoHeight": 88,
       "margin": 56,
       "drawInSeconds": 1.2,
       "sparkle": true,
@@ -78,16 +87,17 @@
     "pen": {
       "color": "#f5b942"
     },
-    "_note": "品牌层。name=水印/片尾的手写字（小赖字体）；accent=品牌绿（水印下划线、星号、片尾划线，DSL 里 C.brand）；logo=可选透明底 png 路径（~ 可用），给了就代替手写名；watermark.position=top-right|top-left|bottom-right|bottom-left，drawInSeconds=第一场景开头逐笔画出水印的时长（0 则直接出现）；endCard=片尾品牌卡（名字+划线+slogan+CTA，静音，BGM 继续；seconds 总长，最后 holdSeconds 静止展示）；pen.color=铅笔笔身颜色"
+    "_note": "品牌层。name=水印/片尾的手写字（小赖字体）；accent=品牌绿（水印下划线、星号、片尾划线，DSL 里 C.brand）；logo=可选透明底 png 路径（~ 可用），给了就代替手写名；watermark.position=top-right|top-left|bottom-right|bottom-left，logoHeight=logo 水印高度像素（缺省 size*1.6），sparkle=logo 左侧装饰星（图标类 logo 建议关，避免喧宾夺主），drawInSeconds=第一场景开头画入水印的时长（0 直接出现）；endCard=片尾品牌卡（名字+划线+slogan+CTA，静音，BGM 继续；seconds 总长，最后 holdSeconds 静止展示）；pen.color=铅笔笔身颜色；期目录放 brand.json 可覆盖本节任意字段（如旅行类固定 slogan：{\"slogan\": \"下一站想去哪儿？\"}），render.js 自动读取"
   },
   "cover": {
     "ratios": [
       "4:3",
-      "3:4"
+      "3:4",
+      "16:9"
     ],
     "seriesTag": "白板 3 分钟讲清楚",
     "frame": true,
     "frameColor": "#1e1e1e",
-    "_note": "封面：ratios 出几种画幅（4:3=1440×1080 公众号/横版，3:4=1080×1440 视频号竖版/小红书；也支持 16:9=1920×1080）；seriesTag=左上角系列标签默认文案（scenes.js 里 tag 可覆盖）；frame=四周手绘粗边框。封面内容在 scenes.js 的 cover 函数里写，wb cover 出 <期>/封面-4x3.png、封面-3x4.png"
+    "_note": "封面：ratios 出几种画幅（4:3=1440×1080 公众号/横版，3:4=1080×1440 视频号竖版/小红书；也支持 16:9=1920×1080）；seriesTag=左上角系列标签默认文案（scenes.js 里 tag 可覆盖）；frame=四周手绘粗边框。封面内容在 scenes.js 的 cover 函数里写，wb cover 出 <期>/封面-4x3.png、封面-3x4.png。可选 tagFill/tagInk（标签底色/字色）做每期主题色；scenes.js coverLayout 支持 boost/boostIdx 把标题重点行放大做数字视觉锤（工作台导出 ≥2 行标题时自动 boost 1.4）。"
   }
 }

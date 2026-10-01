@@ -235,8 +235,14 @@ function buildAll(elements, files, into, idPrefix) {
 }
 
 // 排期：每个 beat 的元素从 max(beat 起点, 上一笔结束) 顺序开始；自然时长放不下时按比例压缩，但允许溢出到下一 beat 的前 overflow 段。
-function schedule(built, beatOf, beats, sceneEnd) {
+// cues 存在时走「按句对齐」：一段旁白被字幕切成 2~3 条 cue，绘制也按 cue 分组——
+// 每条 cue 对应的笔画在该句念到 cueFinish 时画完。否则画面会一路追着字幕跑（观感：字幕比动画快）。
+function schedule(built, beatOf, beats, sceneEnd, cues) {
   const gap = PEN.gapSeconds;
+  const cueSync = PEN.cueSync !== false;
+  const finish = PEN.cueFinish == null ? 0.9 : PEN.cueFinish;
+  const minWin = PEN.cueMinSeconds == null ? 0.55 : PEN.cueMinSeconds;
+  const minScale = PEN.minScale == null ? 0.2 : PEN.minScale;
   let cursor = -Infinity;
   for (let bi = 0; bi < beats.length; bi++) {
     const [t0, t1] = beats[bi];
@@ -244,11 +250,51 @@ function schedule(built, beatOf, beats, sceneEnd) {
     if (!list.length) continue;
     const start = Math.max(t0 + 0.05, cursor);
     const last = bi + 1 >= beats.length;
-    const limit = last ? Math.max(t1, sceneEnd - 0.45) : t1 + PEN.overflow * (beats[bi + 1][1] - beats[bi + 1][0]);
+    const cap = last ? Math.max(t1, sceneEnd - 0.45) : t1;
     for (const b of list) b.dur = Math.max(PEN.minSeconds, b.natural);
+
+    // 本 beat 内的字幕 cue（按 cue 起点归属到 beat 窗口）
+    const cs = cueSync && cues && cues.length
+      ? cues.filter((c) => c.start >= t0 - 0.05 && c.start < t1 + 0.05)
+      : [];
+    if (cs.length >= 2 && list.length >= 2 || (cs.length >= 1 && list.length === 1)) {
+      const m = Math.min(cs.length, list.length);
+      // 第 k 组的收笔时刻：该 cue 念到 finish 处（略微提前，画面领先字幕一点点）
+      const marks = [];
+      for (let k = 0; k < m; k++) {
+        // m=1（单元素 beat）时对齐第一条 cue：否则会挂到末条 cue 上，等于不压缩
+        const ci = m === 1 ? 0 : Math.min(cs.length - 1, Math.floor((k + 1) * cs.length / m) - 1);
+        const c = cs[ci];
+        marks.push(Math.max(start + 0.2, c.start + (c.end - c.start) * finish - 0.05));
+      }
+      // 元素按顺序均分进各组（数量不等时前面的组多拿一个）
+      const groups = [];
+      for (let i = 0; i < list.length; i++) {
+        const s = Math.min(m - 1, Math.floor(i * m / list.length));
+        (groups[s] = groups[s] || []).push(list[i]);
+      }
+      let t = start;
+      for (let k = 0; k < m; k++) {
+        const g = groups[k] || [];
+        if (!g.length) continue;
+        const gNat = g.reduce((s, b) => s + b.dur, 0) + gap * (g.length - 1);
+        const winStart = Math.max(t, start);
+        const winEnd = Math.max(marks[k], winStart + Math.min(gNat, minWin));
+        const avail = Math.max(0.2, winEnd - winStart);
+        const scale = avail < gNat ? Math.max(minScale, avail / gNat) : 1;
+        for (const b of g) { b.start = t; b.end = t + b.dur * scale; t = b.end + gap * scale; }
+      }
+      cursor = t;
+      continue;
+    }
+
+    // 无 cue（片尾卡/未配字幕）：beatFill——本 beat 的绘制压进窗口前 beatFill 段就画完，剩下时间静止。
+    const fill = PEN.beatFill == null ? 1 : PEN.beatFill;
     const natural = list.reduce((s, b) => s + b.dur, 0) + gap * (list.length - 1);
-    const avail = limit - start;
-    const scale = avail < natural ? Math.max(0.3, avail / natural) : 1;
+    let avail = (cap - start) * fill;
+    let scale = avail < natural ? Math.max(minScale, avail / natural) : 1;
+    // 压到下限还放不下，才允许占用下一段开头（overflow 只在这种情况下生效）
+    if (!last && scale <= 0.3) avail += PEN.overflow * (beats[bi + 1][1] - beats[bi + 1][0]);
     let t = start;
     for (const b of list) { b.start = t; b.end = t + b.dur * scale; t = b.end + gap * scale; }
     cursor = t;
@@ -273,14 +319,16 @@ window.setCanvas = function (w, h) {
   for (const id of ['bg1', 'bg2']) { const r = document.getElementById(id); r.setAttribute('width', w); r.setAttribute('height', h); }
 };
 window.setPen = function (opts) { Object.assign(PEN, opts || {}); if (opts && opts.color) document.getElementById('penBody').setAttribute('fill', opts.color); };
+// 纸底恒为 #fffdf7（牛皮纸），不随主题染：色调只体现在内容元素上，整片染底会丢掉白板辨识度。
 
 // 贴纸/Logo 解码完再截图：并行渲染时每页各自装场景，第一帧可能落在图片已露出的时刻
 window.imagesReady = () => Promise.all([...document.querySelectorAll('#layer image, #brand image')].map((im) => im.decode().catch(() => {})));
 
-window.loadScene = function (elements, beatOf, beats, files, sceneEnd) {
+window.loadScene = function (elements, beatOf, beats, files, sceneEnd, cues) {
   layer.innerHTML = '';
   const built = buildAll(elements, files || {}, layer, '');
-  items = schedule(built, beatOf, beats, sceneEnd || (beats.length ? beats[beats.length - 1][1] + 0.7 : 5));
+  if (cues && cues.length) window.setCaptions(cues);
+  items = schedule(built, beatOf, beats, sceneEnd || (beats.length ? beats[beats.length - 1][1] + 0.7 : 5), cues);
   pen.style.display = 'none';
   return items.length;
 };

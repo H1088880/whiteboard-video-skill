@@ -1,0 +1,3368 @@
+[
+ {
+  "level": "province",
+  "name": "北京",
+  "prov": "北京",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "berry",
+  "done": true
+ },
+ {
+  "level": "province",
+  "name": "天津",
+  "prov": "天津",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "warm",
+  "done": true
+ },
+ {
+  "level": "province",
+  "name": "河北",
+  "prov": "河北",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "石家庄",
+  "prov": "河北",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "唐山",
+  "prov": "河北",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "秦皇岛",
+  "prov": "河北",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "邯郸",
+  "prov": "河北",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "邢台",
+  "prov": "河北",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "保定",
+  "prov": "河北",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "张家口",
+  "prov": "河北",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "承德",
+  "prov": "河北",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "沧州",
+  "prov": "河北",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "廊坊",
+  "prov": "河北",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "衡水",
+  "prov": "河北",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "山西",
+  "prov": "山西",
+  "region": "华北",
+  "dialect": "山西话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "太原",
+  "prov": "山西",
+  "region": "华北",
+  "dialect": "山西话",
+  "theme": "grape",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "大同",
+  "prov": "山西",
+  "region": "华北",
+  "dialect": "山西话",
+  "theme": "grape",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "阳泉",
+  "prov": "山西",
+  "region": "华北",
+  "dialect": "山西话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "长治",
+  "prov": "山西",
+  "region": "华北",
+  "dialect": "山西话",
+  "theme": "grape",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "晋城",
+  "prov": "山西",
+  "region": "华北",
+  "dialect": "山西话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "朔州",
+  "prov": "山西",
+  "region": "华北",
+  "dialect": "山西话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "晋中",
+  "prov": "山西",
+  "region": "华北",
+  "dialect": "山西话",
+  "theme": "grape",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "运城",
+  "prov": "山西",
+  "region": "华北",
+  "dialect": "山西话",
+  "theme": "grape",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "忻州",
+  "prov": "山西",
+  "region": "华北",
+  "dialect": "山西话",
+  "theme": "grape",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "临汾",
+  "prov": "山西",
+  "region": "华北",
+  "dialect": "山西话",
+  "theme": "grape",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "吕梁",
+  "prov": "山西",
+  "region": "华北",
+  "dialect": "山西话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "内蒙古",
+  "prov": "内蒙古",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "呼和浩特",
+  "prov": "内蒙古",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "包头",
+  "prov": "内蒙古",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "乌海",
+  "prov": "内蒙古",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "赤峰",
+  "prov": "内蒙古",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "通辽",
+  "prov": "内蒙古",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "鄂尔多斯",
+  "prov": "内蒙古",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "呼伦贝尔",
+  "prov": "内蒙古",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "巴彦淖尔",
+  "prov": "内蒙古",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "乌兰察布",
+  "prov": "内蒙古",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "兴安盟",
+  "prov": "内蒙古",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "锡林郭勒盟",
+  "prov": "内蒙古",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "阿拉善盟",
+  "prov": "内蒙古",
+  "region": "华北",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "辽宁",
+  "prov": "辽宁",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "沈阳",
+  "prov": "辽宁",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "warm",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "大连",
+  "prov": "辽宁",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "warm",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "鞍山",
+  "prov": "辽宁",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "抚顺",
+  "prov": "辽宁",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "本溪",
+  "prov": "辽宁",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "丹东",
+  "prov": "辽宁",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "锦州",
+  "prov": "辽宁",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "营口",
+  "prov": "辽宁",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "阜新",
+  "prov": "辽宁",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "辽阳",
+  "prov": "辽宁",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "盘锦",
+  "prov": "辽宁",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "铁岭",
+  "prov": "辽宁",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "朝阳",
+  "prov": "辽宁",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "葫芦岛",
+  "prov": "辽宁",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "吉林",
+  "prov": "吉林",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "长春",
+  "prov": "吉林",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "ocean",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "吉林",
+  "prov": "吉林",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "四平",
+  "prov": "吉林",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "辽源",
+  "prov": "吉林",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "通化",
+  "prov": "吉林",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "白山",
+  "prov": "吉林",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "松原",
+  "prov": "吉林",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "白城",
+  "prov": "吉林",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "延边",
+  "prov": "吉林",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "黑龙江",
+  "prov": "黑龙江",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "哈尔滨",
+  "prov": "黑龙江",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "forest",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "齐齐哈尔",
+  "prov": "黑龙江",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "鸡西",
+  "prov": "黑龙江",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "鹤岗",
+  "prov": "黑龙江",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "双鸭山",
+  "prov": "黑龙江",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "大庆",
+  "prov": "黑龙江",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "伊春",
+  "prov": "黑龙江",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "佳木斯",
+  "prov": "黑龙江",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "七台河",
+  "prov": "黑龙江",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "牡丹江",
+  "prov": "黑龙江",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "黑河",
+  "prov": "黑龙江",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "绥化",
+  "prov": "黑龙江",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "大兴安岭",
+  "prov": "黑龙江",
+  "region": "东北",
+  "dialect": "东北话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "上海",
+  "prov": "上海",
+  "region": "华东",
+  "dialect": "上海话",
+  "theme": "berry",
+  "done": true
+ },
+ {
+  "level": "province",
+  "name": "江苏",
+  "prov": "江苏",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "南京",
+  "prov": "江苏",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "warm",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "无锡",
+  "prov": "江苏",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "徐州",
+  "prov": "江苏",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "常州",
+  "prov": "江苏",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "苏州",
+  "prov": "江苏",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "warm",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "南通",
+  "prov": "江苏",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "连云港",
+  "prov": "江苏",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "淮安",
+  "prov": "江苏",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "盐城",
+  "prov": "江苏",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "扬州",
+  "prov": "江苏",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "镇江",
+  "prov": "江苏",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "泰州",
+  "prov": "江苏",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "宿迁",
+  "prov": "江苏",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "浙江",
+  "prov": "浙江",
+  "region": "华东",
+  "dialect": "上海话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "杭州",
+  "prov": "浙江",
+  "region": "华东",
+  "dialect": "上海话",
+  "theme": "ocean",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "宁波",
+  "prov": "浙江",
+  "region": "华东",
+  "dialect": "上海话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "温州",
+  "prov": "浙江",
+  "region": "华东",
+  "dialect": "上海话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "嘉兴",
+  "prov": "浙江",
+  "region": "华东",
+  "dialect": "上海话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "湖州",
+  "prov": "浙江",
+  "region": "华东",
+  "dialect": "上海话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "绍兴",
+  "prov": "浙江",
+  "region": "华东",
+  "dialect": "上海话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "金华",
+  "prov": "浙江",
+  "region": "华东",
+  "dialect": "上海话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "衢州",
+  "prov": "浙江",
+  "region": "华东",
+  "dialect": "上海话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "舟山",
+  "prov": "浙江",
+  "region": "华东",
+  "dialect": "上海话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "台州",
+  "prov": "浙江",
+  "region": "华东",
+  "dialect": "上海话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "丽水",
+  "prov": "浙江",
+  "region": "华东",
+  "dialect": "上海话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "安徽",
+  "prov": "安徽",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "合肥",
+  "prov": "安徽",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "芜湖",
+  "prov": "安徽",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "蚌埠",
+  "prov": "安徽",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "淮南",
+  "prov": "安徽",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "马鞍山",
+  "prov": "安徽",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "淮北",
+  "prov": "安徽",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "铜陵",
+  "prov": "安徽",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "安庆",
+  "prov": "安徽",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "黄山",
+  "prov": "安徽",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "阜阳",
+  "prov": "安徽",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "宿州",
+  "prov": "安徽",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "滁州",
+  "prov": "安徽",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "六安",
+  "prov": "安徽",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "亳州",
+  "prov": "安徽",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "池州",
+  "prov": "安徽",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "宣城",
+  "prov": "安徽",
+  "region": "华东",
+  "dialect": "普通话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "福建",
+  "prov": "福建",
+  "region": "华东",
+  "dialect": "闽南话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "福州",
+  "prov": "福建",
+  "region": "华东",
+  "dialect": "闽南话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "厦门",
+  "prov": "福建",
+  "region": "华东",
+  "dialect": "闽南话",
+  "theme": "grape",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "莆田",
+  "prov": "福建",
+  "region": "华东",
+  "dialect": "闽南话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "三明",
+  "prov": "福建",
+  "region": "华东",
+  "dialect": "闽南话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "泉州",
+  "prov": "福建",
+  "region": "华东",
+  "dialect": "闽南话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "漳州",
+  "prov": "福建",
+  "region": "华东",
+  "dialect": "闽南话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "南平",
+  "prov": "福建",
+  "region": "华东",
+  "dialect": "闽南话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "龙岩",
+  "prov": "福建",
+  "region": "华东",
+  "dialect": "闽南话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "宁德",
+  "prov": "福建",
+  "region": "华东",
+  "dialect": "闽南话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "江西",
+  "prov": "江西",
+  "region": "华东",
+  "dialect": "江西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "南昌",
+  "prov": "江西",
+  "region": "华东",
+  "dialect": "江西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "景德镇",
+  "prov": "江西",
+  "region": "华东",
+  "dialect": "江西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "萍乡",
+  "prov": "江西",
+  "region": "华东",
+  "dialect": "江西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "九江",
+  "prov": "江西",
+  "region": "华东",
+  "dialect": "江西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "新余",
+  "prov": "江西",
+  "region": "华东",
+  "dialect": "江西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "鹰潭",
+  "prov": "江西",
+  "region": "华东",
+  "dialect": "江西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "赣州",
+  "prov": "江西",
+  "region": "华东",
+  "dialect": "江西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "吉安",
+  "prov": "江西",
+  "region": "华东",
+  "dialect": "江西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "宜春",
+  "prov": "江西",
+  "region": "华东",
+  "dialect": "江西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "抚州",
+  "prov": "江西",
+  "region": "华东",
+  "dialect": "江西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "上饶",
+  "prov": "江西",
+  "region": "华东",
+  "dialect": "江西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "山东",
+  "prov": "山东",
+  "region": "华东",
+  "dialect": "山东话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "济南",
+  "prov": "山东",
+  "region": "华东",
+  "dialect": "山东话",
+  "theme": "berry",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "青岛",
+  "prov": "山东",
+  "region": "华东",
+  "dialect": "山东话",
+  "theme": "berry",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "淄博",
+  "prov": "山东",
+  "region": "华东",
+  "dialect": "山东话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "枣庄",
+  "prov": "山东",
+  "region": "华东",
+  "dialect": "山东话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "东营",
+  "prov": "山东",
+  "region": "华东",
+  "dialect": "山东话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "烟台",
+  "prov": "山东",
+  "region": "华东",
+  "dialect": "山东话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "潍坊",
+  "prov": "山东",
+  "region": "华东",
+  "dialect": "山东话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "济宁",
+  "prov": "山东",
+  "region": "华东",
+  "dialect": "山东话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "泰安",
+  "prov": "山东",
+  "region": "华东",
+  "dialect": "山东话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "威海",
+  "prov": "山东",
+  "region": "华东",
+  "dialect": "山东话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "日照",
+  "prov": "山东",
+  "region": "华东",
+  "dialect": "山东话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "临沂",
+  "prov": "山东",
+  "region": "华东",
+  "dialect": "山东话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "德州",
+  "prov": "山东",
+  "region": "华东",
+  "dialect": "山东话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "聊城",
+  "prov": "山东",
+  "region": "华东",
+  "dialect": "山东话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "滨州",
+  "prov": "山东",
+  "region": "华东",
+  "dialect": "山东话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "菏泽",
+  "prov": "山东",
+  "region": "华东",
+  "dialect": "山东话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "河南",
+  "prov": "河南",
+  "region": "华中",
+  "dialect": "河南话",
+  "theme": "berry",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "郑州",
+  "prov": "河南",
+  "region": "华中",
+  "dialect": "河南话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "开封",
+  "prov": "河南",
+  "region": "华中",
+  "dialect": "河南话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "洛阳",
+  "prov": "河南",
+  "region": "华中",
+  "dialect": "河南话",
+  "theme": "berry",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "平顶山",
+  "prov": "河南",
+  "region": "华中",
+  "dialect": "河南话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "安阳",
+  "prov": "河南",
+  "region": "华中",
+  "dialect": "河南话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "鹤壁",
+  "prov": "河南",
+  "region": "华中",
+  "dialect": "河南话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "新乡",
+  "prov": "河南",
+  "region": "华中",
+  "dialect": "河南话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "焦作",
+  "prov": "河南",
+  "region": "华中",
+  "dialect": "河南话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "濮阳",
+  "prov": "河南",
+  "region": "华中",
+  "dialect": "河南话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "许昌",
+  "prov": "河南",
+  "region": "华中",
+  "dialect": "河南话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "漯河",
+  "prov": "河南",
+  "region": "华中",
+  "dialect": "河南话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "三门峡",
+  "prov": "河南",
+  "region": "华中",
+  "dialect": "河南话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "南阳",
+  "prov": "河南",
+  "region": "华中",
+  "dialect": "河南话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "商丘",
+  "prov": "河南",
+  "region": "华中",
+  "dialect": "河南话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "信阳",
+  "prov": "河南",
+  "region": "华中",
+  "dialect": "河南话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "周口",
+  "prov": "河南",
+  "region": "华中",
+  "dialect": "河南话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "驻马店",
+  "prov": "河南",
+  "region": "华中",
+  "dialect": "河南话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "湖北",
+  "prov": "湖北",
+  "region": "华中",
+  "dialect": "湖北话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "武汉",
+  "prov": "湖北",
+  "region": "华中",
+  "dialect": "湖北话",
+  "theme": "ocean",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "黄石",
+  "prov": "湖北",
+  "region": "华中",
+  "dialect": "湖北话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "十堰",
+  "prov": "湖北",
+  "region": "华中",
+  "dialect": "湖北话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "宜昌",
+  "prov": "湖北",
+  "region": "华中",
+  "dialect": "湖北话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "襄阳",
+  "prov": "湖北",
+  "region": "华中",
+  "dialect": "湖北话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "鄂州",
+  "prov": "湖北",
+  "region": "华中",
+  "dialect": "湖北话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "荆门",
+  "prov": "湖北",
+  "region": "华中",
+  "dialect": "湖北话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "孝感",
+  "prov": "湖北",
+  "region": "华中",
+  "dialect": "湖北话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "荆州",
+  "prov": "湖北",
+  "region": "华中",
+  "dialect": "湖北话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "黄冈",
+  "prov": "湖北",
+  "region": "华中",
+  "dialect": "湖北话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "咸宁",
+  "prov": "湖北",
+  "region": "华中",
+  "dialect": "湖北话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "随州",
+  "prov": "湖北",
+  "region": "华中",
+  "dialect": "湖北话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "恩施",
+  "prov": "湖北",
+  "region": "华中",
+  "dialect": "湖北话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "湖南",
+  "prov": "湖南",
+  "region": "华中",
+  "dialect": "湖南话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "长沙",
+  "prov": "湖南",
+  "region": "华中",
+  "dialect": "湖南话",
+  "theme": "grape",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "株洲",
+  "prov": "湖南",
+  "region": "华中",
+  "dialect": "湖南话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "湘潭",
+  "prov": "湖南",
+  "region": "华中",
+  "dialect": "湖南话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "衡阳",
+  "prov": "湖南",
+  "region": "华中",
+  "dialect": "湖南话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "邵阳",
+  "prov": "湖南",
+  "region": "华中",
+  "dialect": "湖南话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "岳阳",
+  "prov": "湖南",
+  "region": "华中",
+  "dialect": "湖南话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "常德",
+  "prov": "湖南",
+  "region": "华中",
+  "dialect": "湖南话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "张家界",
+  "prov": "湖南",
+  "region": "华中",
+  "dialect": "湖南话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "益阳",
+  "prov": "湖南",
+  "region": "华中",
+  "dialect": "湖南话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "郴州",
+  "prov": "湖南",
+  "region": "华中",
+  "dialect": "湖南话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "永州",
+  "prov": "湖南",
+  "region": "华中",
+  "dialect": "湖南话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "怀化",
+  "prov": "湖南",
+  "region": "华中",
+  "dialect": "湖南话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "娄底",
+  "prov": "湖南",
+  "region": "华中",
+  "dialect": "湖南话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "湘西",
+  "prov": "湖南",
+  "region": "华中",
+  "dialect": "湖南话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "广东",
+  "prov": "广东",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "广州",
+  "prov": "广东",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "warm",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "深圳",
+  "prov": "广东",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "warm",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "珠海",
+  "prov": "广东",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "汕头",
+  "prov": "广东",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "佛山",
+  "prov": "广东",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "韶关",
+  "prov": "广东",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "湛江",
+  "prov": "广东",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "肇庆",
+  "prov": "广东",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "江门",
+  "prov": "广东",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "茂名",
+  "prov": "广东",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "惠州",
+  "prov": "广东",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "梅州",
+  "prov": "广东",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "汕尾",
+  "prov": "广东",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "河源",
+  "prov": "广东",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "阳江",
+  "prov": "广东",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "清远",
+  "prov": "广东",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "东莞",
+  "prov": "广东",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "中山",
+  "prov": "广东",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "潮州",
+  "prov": "广东",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "揭阳",
+  "prov": "广东",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "云浮",
+  "prov": "广东",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "广西",
+  "prov": "广西",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "南宁",
+  "prov": "广西",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "柳州",
+  "prov": "广西",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "桂林",
+  "prov": "广西",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "forest",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "梧州",
+  "prov": "广西",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "北海",
+  "prov": "广西",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "防城港",
+  "prov": "广西",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "钦州",
+  "prov": "广西",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "贵港",
+  "prov": "广西",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "玉林",
+  "prov": "广西",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "百色",
+  "prov": "广西",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "贺州",
+  "prov": "广西",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "河池",
+  "prov": "广西",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "来宾",
+  "prov": "广西",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "崇左",
+  "prov": "广西",
+  "region": "华南",
+  "dialect": "粤语",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "海南",
+  "prov": "海南",
+  "region": "华南",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "海口",
+  "prov": "海南",
+  "region": "华南",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "三亚",
+  "prov": "海南",
+  "region": "华南",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "三沙",
+  "prov": "海南",
+  "region": "华南",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "儋州",
+  "prov": "海南",
+  "region": "华南",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "重庆",
+  "prov": "重庆",
+  "region": "西南",
+  "dialect": "四川话",
+  "theme": "berry",
+  "done": true
+ },
+ {
+  "level": "province",
+  "name": "四川",
+  "prov": "四川",
+  "region": "西南",
+  "dialect": "四川话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "成都",
+  "prov": "四川",
+  "region": "西南",
+  "dialect": "四川话",
+  "theme": "grape",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "自贡",
+  "prov": "四川",
+  "region": "西南",
+  "dialect": "四川话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "攀枝花",
+  "prov": "四川",
+  "region": "西南",
+  "dialect": "四川话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "泸州",
+  "prov": "四川",
+  "region": "西南",
+  "dialect": "四川话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "德阳",
+  "prov": "四川",
+  "region": "西南",
+  "dialect": "四川话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "绵阳",
+  "prov": "四川",
+  "region": "西南",
+  "dialect": "四川话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "广元",
+  "prov": "四川",
+  "region": "西南",
+  "dialect": "四川话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "遂宁",
+  "prov": "四川",
+  "region": "西南",
+  "dialect": "四川话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "内江",
+  "prov": "四川",
+  "region": "西南",
+  "dialect": "四川话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "乐山",
+  "prov": "四川",
+  "region": "西南",
+  "dialect": "四川话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "南充",
+  "prov": "四川",
+  "region": "西南",
+  "dialect": "四川话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "眉山",
+  "prov": "四川",
+  "region": "西南",
+  "dialect": "四川话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "宜宾",
+  "prov": "四川",
+  "region": "西南",
+  "dialect": "四川话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "广安",
+  "prov": "四川",
+  "region": "西南",
+  "dialect": "四川话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "达州",
+  "prov": "四川",
+  "region": "西南",
+  "dialect": "四川话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "雅安",
+  "prov": "四川",
+  "region": "西南",
+  "dialect": "四川话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "巴中",
+  "prov": "四川",
+  "region": "西南",
+  "dialect": "四川话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "资阳",
+  "prov": "四川",
+  "region": "西南",
+  "dialect": "四川话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "阿坝",
+  "prov": "四川",
+  "region": "西南",
+  "dialect": "四川话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "甘孜",
+  "prov": "四川",
+  "region": "西南",
+  "dialect": "四川话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "凉山",
+  "prov": "四川",
+  "region": "西南",
+  "dialect": "四川话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "贵州",
+  "prov": "贵州",
+  "region": "西南",
+  "dialect": "贵州话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "贵阳",
+  "prov": "贵州",
+  "region": "西南",
+  "dialect": "贵州话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "六盘水",
+  "prov": "贵州",
+  "region": "西南",
+  "dialect": "贵州话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "遵义",
+  "prov": "贵州",
+  "region": "西南",
+  "dialect": "贵州话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "安顺",
+  "prov": "贵州",
+  "region": "西南",
+  "dialect": "贵州话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "毕节",
+  "prov": "贵州",
+  "region": "西南",
+  "dialect": "贵州话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "铜仁",
+  "prov": "贵州",
+  "region": "西南",
+  "dialect": "贵州话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "黔西南",
+  "prov": "贵州",
+  "region": "西南",
+  "dialect": "贵州话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "黔东南",
+  "prov": "贵州",
+  "region": "西南",
+  "dialect": "贵州话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "黔南",
+  "prov": "贵州",
+  "region": "西南",
+  "dialect": "贵州话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "云南",
+  "prov": "云南",
+  "region": "西南",
+  "dialect": "云南话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "昆明",
+  "prov": "云南",
+  "region": "西南",
+  "dialect": "云南话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "曲靖",
+  "prov": "云南",
+  "region": "西南",
+  "dialect": "云南话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "玉溪",
+  "prov": "云南",
+  "region": "西南",
+  "dialect": "云南话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "保山",
+  "prov": "云南",
+  "region": "西南",
+  "dialect": "云南话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "昭通",
+  "prov": "云南",
+  "region": "西南",
+  "dialect": "云南话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "丽江",
+  "prov": "云南",
+  "region": "西南",
+  "dialect": "云南话",
+  "theme": "warm",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "普洱",
+  "prov": "云南",
+  "region": "西南",
+  "dialect": "云南话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "临沧",
+  "prov": "云南",
+  "region": "西南",
+  "dialect": "云南话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "楚雄",
+  "prov": "云南",
+  "region": "西南",
+  "dialect": "云南话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "红河",
+  "prov": "云南",
+  "region": "西南",
+  "dialect": "云南话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "文山",
+  "prov": "云南",
+  "region": "西南",
+  "dialect": "云南话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "西双版纳",
+  "prov": "云南",
+  "region": "西南",
+  "dialect": "云南话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "大理",
+  "prov": "云南",
+  "region": "西南",
+  "dialect": "云南话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "德宏",
+  "prov": "云南",
+  "region": "西南",
+  "dialect": "云南话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "怒江",
+  "prov": "云南",
+  "region": "西南",
+  "dialect": "云南话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "迪庆",
+  "prov": "云南",
+  "region": "西南",
+  "dialect": "云南话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "西藏",
+  "prov": "西藏",
+  "region": "西南",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "拉萨",
+  "prov": "西藏",
+  "region": "西南",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "日喀则",
+  "prov": "西藏",
+  "region": "西南",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "昌都",
+  "prov": "西藏",
+  "region": "西南",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "林芝",
+  "prov": "西藏",
+  "region": "西南",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "山南",
+  "prov": "西藏",
+  "region": "西南",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "那曲",
+  "prov": "西藏",
+  "region": "西南",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "阿里",
+  "prov": "西藏",
+  "region": "西南",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "陕西",
+  "prov": "陕西",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "西安",
+  "prov": "陕西",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "berry",
+  "done": true
+ },
+ {
+  "level": "city",
+  "name": "铜川",
+  "prov": "陕西",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "宝鸡",
+  "prov": "陕西",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "咸阳",
+  "prov": "陕西",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "渭南",
+  "prov": "陕西",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "延安",
+  "prov": "陕西",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "汉中",
+  "prov": "陕西",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "榆林",
+  "prov": "陕西",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "安康",
+  "prov": "陕西",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "商洛",
+  "prov": "陕西",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "甘肃",
+  "prov": "甘肃",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "兰州",
+  "prov": "甘肃",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "嘉峪关",
+  "prov": "甘肃",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "金昌",
+  "prov": "甘肃",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "白银",
+  "prov": "甘肃",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "天水",
+  "prov": "甘肃",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "武威",
+  "prov": "甘肃",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "张掖",
+  "prov": "甘肃",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "平凉",
+  "prov": "甘肃",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "酒泉",
+  "prov": "甘肃",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "庆阳",
+  "prov": "甘肃",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "定西",
+  "prov": "甘肃",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "陇南",
+  "prov": "甘肃",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "临夏",
+  "prov": "甘肃",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "甘南",
+  "prov": "甘肃",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "青海",
+  "prov": "青海",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "西宁",
+  "prov": "青海",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "海东",
+  "prov": "青海",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "海北",
+  "prov": "青海",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "黄南",
+  "prov": "青海",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "海南",
+  "prov": "青海",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "果洛",
+  "prov": "青海",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "玉树",
+  "prov": "青海",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "海西",
+  "prov": "青海",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "宁夏",
+  "prov": "宁夏",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "银川",
+  "prov": "宁夏",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "石嘴山",
+  "prov": "宁夏",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "吴忠",
+  "prov": "宁夏",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "固原",
+  "prov": "宁夏",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "中卫",
+  "prov": "宁夏",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "grape",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "新疆",
+  "prov": "新疆",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "乌鲁木齐",
+  "prov": "新疆",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "克拉玛依",
+  "prov": "新疆",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "吐鲁番",
+  "prov": "新疆",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "哈密",
+  "prov": "新疆",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "昌吉",
+  "prov": "新疆",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "博尔塔拉",
+  "prov": "新疆",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "巴音郭楞",
+  "prov": "新疆",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "阿克苏",
+  "prov": "新疆",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "克孜勒苏",
+  "prov": "新疆",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "喀什",
+  "prov": "新疆",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "和田",
+  "prov": "新疆",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "伊犁",
+  "prov": "新疆",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "塔城",
+  "prov": "新疆",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "阿勒泰",
+  "prov": "新疆",
+  "region": "西北",
+  "dialect": "陕西话",
+  "theme": "forest",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "香港",
+  "prov": "香港",
+  "region": "港澳台",
+  "dialect": "粤语",
+  "theme": "berry",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "澳门",
+  "prov": "澳门",
+  "region": "港澳台",
+  "dialect": "粤语",
+  "theme": "warm",
+  "done": false
+ },
+ {
+  "level": "province",
+  "name": "台湾",
+  "prov": "台湾",
+  "region": "港澳台",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "台北",
+  "prov": "台湾",
+  "region": "港澳台",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "高雄",
+  "prov": "台湾",
+  "region": "港澳台",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "台中",
+  "prov": "台湾",
+  "region": "港澳台",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "台南",
+  "prov": "台湾",
+  "region": "港澳台",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "基隆",
+  "prov": "台湾",
+  "region": "港澳台",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "新竹",
+  "prov": "台湾",
+  "region": "港澳台",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": false
+ },
+ {
+  "level": "city",
+  "name": "嘉义",
+  "prov": "台湾",
+  "region": "港澳台",
+  "dialect": "普通话",
+  "theme": "ocean",
+  "done": false
+ }
+]

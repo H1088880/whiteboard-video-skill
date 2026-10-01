@@ -14,3 +14,7 @@ templates/scenes/
 /*.png
 art-style.json
 .codex/
+__pycache__/
+*.pyc
+*.bak*
+

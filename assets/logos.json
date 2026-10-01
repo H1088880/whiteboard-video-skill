@@ -1,0 +1,23 @@
+{
+  "weizhijing-ai": {
+    "name": "未智境AI",
+    "kind": "brand-self",
+    "title": "未智境AI 品牌标志 v2（蓝紫渐变 mark + 「未智境Ai」渐变字标）",
+    "pngFile": "assets/weizhijing-ai.png",
+    "pngSize": "1050x332 透明底 RGBA（mark 300 高 + 原生字标横排 lockup）",
+    "markFile": "assets/weizhijing-ai-mark.png",
+    "textFile": "assets/weizhijing-ai-text.png",
+    "aspect": 3.163,
+    "accent": "#2573fd",
+    "ink": "#1e1e1e",
+    "source": "用户提供的品牌图两张（mark 图 + 字标图，2026-09-28），边界泛洪 + 饱和度阈值背景分离提取合成；分层源文件在 assets/ 可直接改回",
+    "variants": "mark 以无花瓣版为准（与品牌实际使用图标一致，用户 2026-09-28 参考图确认）；AI 生成品牌场景图（1254x1254）重提取的带花瓣变体存 assets/archive/weizhijing-ai-*-petal变体.png，如需换用改 config.brand.logo 即可",
+    "license": "Copyright (c) 2026 未智境AI · 保留所有权利",
+    "v1Archive": [
+      "assets/archive/weizhijing-ai-v1-green.svg",
+      "assets/archive/weizhijing-ai-v1-green.png"
+    ],
+    "updated": "2026-09-28",
+    "note": "v2 蓝紫渐变版（替换 v1 绿色自绘矢量版，旧版已归档）。config.brand.logo 指向合成 PNG；render.js 读 PNG IHDR，只吃 PNG。mark 均色 #2573fd 已同步为 config.brand.accent。"
+  }
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="280" viewBox="0 0 720 280">
+  <!-- 未智境AI 品牌标志 · 真实矢量源 (viewBox 2.57:1) -->
+  <defs>
+    <style>
+      .wz { font-family: "Microsoft YaHei","PingFang SC","Noto Sans SC","Source Han Sans SC",sans-serif; font-weight: 700; }
+      .ai { font-family: "Microsoft YaHei","PingFang SC","Noto Sans SC",sans-serif; font-weight: 800; }
+    </style>
+  </defs>
+
+  <!-- 标志：绿圆"境" + 智能节点网络 + 黄心火花 -->
+  <g>
+    <circle cx="95" cy="140" r="72" fill="#2f9e44"/>
+    <circle cx="95" cy="140" r="50" fill="none" stroke="#ffffff" stroke-width="7" opacity="0.92"/>
+    <!-- 节点三角（智 / AI 网络）-->
+    <g stroke="#ffffff" stroke-width="5" stroke-linecap="round">
+      <line x1="95" y1="112" x2="64" y2="168"/>
+      <line x1="64" y1="168" x2="126" y2="168"/>
+      <line x1="126" y1="168" x2="95" y2="112"/>
+    </g>
+    <circle cx="95" cy="112" r="10" fill="#ffffff"/>
+    <circle cx="64" cy="168" r="10" fill="#ffffff"/>
+    <circle cx="126" cy="168" r="10" fill="#ffffff"/>
+    <!-- 黄心火花（呼应笔色与片尾星标）-->
+    <path d="M95 128 L99 137 L108 140 L99 143 L95 152 L91 143 L82 140 L91 137 Z" fill="#f5b942"/>
+  </g>
+
+  <!-- 字标：未智境（墨） + AI（品牌绿）-->
+  <text class="wz" x="190" y="178" font-size="108" fill="#1e1e1e" letter-spacing="2">未智境</text>
+  <text class="ai" x="540" y="178" font-size="96" fill="#2f9e44" letter-spacing="1">AI</text>
+</svg>

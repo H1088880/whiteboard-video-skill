@@ -1,9 +1,6 @@
 MIT License
 
-Copyright (c) 2026 trustfuture  原始项目：https://github.com/trustfuture/simon-skills
-Copyright (c) 2026 H1088880    本仓库的修改与增补
-
-本项目由 trustfuture/simon-skills 的 skills/whiteboard-video 改造而来，原项目同样以 MIT 许可发布，原作者版权声明依 MIT 条款在此保留。
+Copyright (c) 2026 未智境AI (H1088880) — https://github.com/H1088880/whiteboard-video-skill
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -22,3 +19,25 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## 第三方声明 / Third-party notices
+
+本仓库在早期移植阶段引用了下列开源项目与资源。各方权利与许可如下，原始声明依各自的许可条款保留。
+
+1. **trustfuture/simon-skills — skills/whiteboard-video**
+   MIT License，Copyright (c) 2026 trustfuture
+   <https://github.com/trustfuture/simon-skills>
+   本仓库在 `lib/`（场景 DSL、逐笔渲染器、TTS 与配乐链路）、`references/`、`SKILL.md` 的组织结构上
+   以其为起点，其后做了大量本地化改造与增补（画廊画风解耦、公共工序内联、Windows / WorkBuddy 出片环境适配、
+   城市旅游片批量流水线、主题色系统、贴纸校验硬闸、三版封面、可移植打包等）。
+
+2. **小赖字体 Xiaolai-Regular.ttf**（`assets/fonts/`）
+   SIL Open Font License 1.1，Copyright (c) lxgw/kose-font
+   <https://github.com/lxgw/kose-font>，许可证全文见 `assets/fonts/OFL.txt`。
+
+3. **其它运行期依赖**：rough.js（MIT）、Playwright（Apache-2.0）、ffmpeg（LGPL/GPL，按你的发行版为准）、
+   Obsidian Excalidraw 插件（MIT）、Wikimedia Commons 上的公司 Logo（版权归各自所有者）。
+
+本文件是唯一的第三方署名位置；面向用户的文档（README / SKILL.md / 落地页）按自有项目书写，不逐处署名。

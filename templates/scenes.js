@@ -11,7 +11,7 @@
 //  - 右上角 320×130 是品牌水印区（config.json brand.watermark），别放元素；片尾品牌卡由 wb build 自动追加，不用写
 //  - 封面在文件末尾 cover 函数里定义（s.coverLayout），也可以在里面再加 s.text/s.image 自由发挥（ratio 判断坐标）
 //  - 一段旁白 3~4 句、一屏元素 10~20 个最舒服；全片 6~8 个场景约 2.5~3 分钟
-const { Scene, C, CX, build } = require('__WB_ROOT__/lib/scene-dsl').use(__dirname);
+const { Scene, C, CX, build } = require('__WB_ROOT__/lib/scene-dsl').use(__dirname /*, { theme: 'warm' } 每期主题色: warm/ocean/forest/berry/grape 或 '#hex'，标题/眉标/卡片/高亮/大数字全跟随 */);
 const scenes = [];
 
 // ---------- 场景 1：开场 ----------

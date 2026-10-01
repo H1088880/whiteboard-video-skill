@@ -1,0 +1,131 @@
+=== 19:17:28 开始：旅游-唐山
+01-intro: 3 beats, 22 elements
+02-spot1: 3 beats, 12 elements
+03-spot2: 3 beats, 9 elements
+04-spot3: 3 beats, 9 elements
+05-food: 3 beats, 17 elements
+06-outro: 3 beats, 9 elements
+00-cover-4x3: 封面 1440×1080, 10 elements
+00-cover-3x4: 封面 1080×1440, 10 elements
+00-cover-16x9: 封面 1920×1080, 10 elements
+  retry 01-intro 火山 TTS HTTP 403: {"header":{"reqid":"46c81e8a-ea82-4755-9198-ccf6367545c2","code
+  retry 01-intro 火山 TTS HTTP 403: {"header":{"reqid":"f342122c-14a7-419f-ab9c-3cf47d4a87df","code
+  retry 01-intro 火山 TTS HTTP 403: {"header":{"reqid":"00ac43f1-a4bb-4780-bc34-e386231b3c9a","code
+  retry 01-intro 火山 TTS HTTP 403: {"header":{"reqid":"10605681-d064-4be0-9280-02730e426045","code
+file:///C:/Users/ADMIN/.workbuddy/skills/whiteboard-video/lib/tts-volc.mjs:74
+    if (++tries >= 4) throw new Error("TTS failed: " + sc.name);
+                            ^
+
+Error: TTS failed: 01-intro
+
+Node.js v22.22.2
+brand.json 期级覆盖: slogan
+Error: 缺少 audio/01-intro.json，先跑 wb tts
+    at infoFor (C:\Users\ADMIN\.workbuddy\skills\whiteboard-video\lib\render.js:80:22)
+    at main (C:\Users\ADMIN\.workbuddy\skills\whiteboard-video\lib\render.js:235:38)
+✘ 旅游-唐山 失败
+=== 19:17:46 开始：旅游-保定
+01-intro: 3 beats, 22 elements
+02-spot1: 3 beats, 12 elements
+03-spot2: 3 beats, 9 elements
+04-spot3: 3 beats, 9 elements
+05-food: 3 beats, 17 elements
+06-outro: 3 beats, 9 elements
+00-cover-4x3: 封面 1440×1080, 10 elements
+00-cover-3x4: 封面 1080×1440, 10 elements
+00-cover-16x9: 封面 1920×1080, 10 elements
+  retry 01-intro 火山 TTS HTTP 403: {"header":{"reqid":"3ab31eaa-026e-4260-bae2-355095d39c37","code
+  retry 01-intro 火山 TTS HTTP 403: {"header":{"reqid":"7d121be6-c4b2-4d92-b9b5-497273290860","code
+  retry 01-intro 火山 TTS HTTP 403: {"header":{"reqid":"74a1f59f-e038-4acf-92ee-9d6c69d2c340","code
+  retry 01-intro 火山 TTS HTTP 403: {"header":{"reqid":"b0d30fe2-a71a-441a-bca6-5e54c727ab48","code
+file:///C:/Users/ADMIN/.workbuddy/skills/whiteboard-video/lib/tts-volc.mjs:74
+    if (++tries >= 4) throw new Error("TTS failed: " + sc.name);
+                            ^
+
+Error: TTS failed: 01-intro
+
+Node.js v22.22.2
+brand.json 期级覆盖: slogan
+Error: 缺少 audio/01-intro.json，先跑 wb tts
+    at infoFor (C:\Users\ADMIN\.workbuddy\skills\whiteboard-video\lib\render.js:80:22)
+    at main (C:\Users\ADMIN\.workbuddy\skills\whiteboard-video\lib\render.js:235:38)
+✘ 旅游-保定 失败
+=== 19:18:03 开始：旅游-邯郸
+01-intro: 3 beats, 22 elements
+02-spot1: 3 beats, 12 elements
+03-spot2: 3 beats, 9 elements
+04-spot3: 3 beats, 9 elements
+05-food: 3 beats, 17 elements
+06-outro: 3 beats, 9 elements
+00-cover-4x3: 封面 1440×1080, 10 elements
+00-cover-3x4: 封面 1080×1440, 10 elements
+00-cover-16x9: 封面 1920×1080, 10 elements
+  retry 01-intro 火山 TTS HTTP 403: {"header":{"reqid":"58d982a5-eca6-4b1e-8a7d-dcfceca73ae7","code
+  retry 01-intro 火山 TTS HTTP 403: {"header":{"reqid":"20f0edf3-cc3f-45e9-8388-478c3ebba449","code
+  retry 01-intro 火山 TTS HTTP 403: {"header":{"reqid":"e797531a-7093-4df6-94dc-fd5bf55080f4","code
+  retry 01-intro 火山 TTS HTTP 403: {"header":{"reqid":"408b2491-0ef1-4e55-bfe1-42a0eb04584a","code
+file:///C:/Users/ADMIN/.workbuddy/skills/whiteboard-video/lib/tts-volc.mjs:74
+    if (++tries >= 4) throw new Error("TTS failed: " + sc.name);
+                            ^
+
+Error: TTS failed: 01-intro
+
+Node.js v22.22.2
+brand.json 期级覆盖: slogan
+Error: 缺少 audio/01-intro.json，先跑 wb tts
+    at infoFor (C:\Users\ADMIN\.workbuddy\skills\whiteboard-video\lib\render.js:80:22)
+    at main (C:\Users\ADMIN\.workbuddy\skills\whiteboard-video\lib\render.js:235:38)
+✘ 旅游-邯郸 失败
+=== 19:18:19 开始：旅游-张家口
+01-intro: 3 beats, 22 elements
+02-spot1: 3 beats, 12 elements
+03-spot2: 3 beats, 9 elements
+04-spot3: 3 beats, 9 elements
+05-food: 3 beats, 17 elements
+06-outro: 3 beats, 9 elements
+00-cover-4x3: 封面 1440×1080, 10 elements
+00-cover-3x4: 封面 1080×1440, 10 elements
+00-cover-16x9: 封面 1920×1080, 10 elements
+  retry 01-intro 火山 TTS HTTP 403: {"header":{"reqid":"0f005390-3191-4c8a-93a0-a88ee1aeab4a","code
+  retry 01-intro 火山 TTS HTTP 403: {"header":{"reqid":"8ed3c8fd-d776-48ba-901a-6293fd3e8541","code
+  retry 01-intro 火山 TTS HTTP 403: {"header":{"reqid":"7edfa760-e88f-4c16-b746-98184d818be6","code
+  retry 01-intro 火山 TTS HTTP 403: {"header":{"reqid":"2ecb0883-fffa-49fa-a6f7-b125483985c2","code
+file:///C:/Users/ADMIN/.workbuddy/skills/whiteboard-video/lib/tts-volc.mjs:74
+    if (++tries >= 4) throw new Error("TTS failed: " + sc.name);
+                            ^
+
+Error: TTS failed: 01-intro
+
+Node.js v22.22.2
+brand.json 期级覆盖: slogan
+Error: 缺少 audio/01-intro.json，先跑 wb tts
+    at infoFor (C:\Users\ADMIN\.workbuddy\skills\whiteboard-video\lib\render.js:80:22)
+    at main (C:\Users\ADMIN\.workbuddy\skills\whiteboard-video\lib\render.js:235:38)
+✘ 旅游-张家口 失败
+=== 19:18:35 开始：旅游-沧州
+01-intro: 3 beats, 22 elements
+02-spot1: 3 beats, 12 elements
+03-spot2: 3 beats, 9 elements
+04-spot3: 3 beats, 9 elements
+05-food: 3 beats, 17 elements
+06-outro: 3 beats, 9 elements
+00-cover-4x3: 封面 1440×1080, 10 elements
+00-cover-3x4: 封面 1080×1440, 10 elements
+00-cover-16x9: 封面 1920×1080, 10 elements
+  retry 01-intro 火山 TTS HTTP 403: {"header":{"reqid":"c7575aea-62ac-4666-997c-fce0892f9139","code
+  retry 01-intro 火山 TTS HTTP 403: {"header":{"reqid":"74f1552f-d792-4e98-b1fa-864c124bd23f","code
+  retry 01-intro 火山 TTS HTTP 403: {"header":{"reqid":"315dc405-4734-465e-aaeb-4cc48ee7c3cd","code
+  retry 01-intro 火山 TTS HTTP 403: {"header":{"reqid":"e6a187cc-e7fb-4e76-9da5-3041c11df928","code
+file:///C:/Users/ADMIN/.workbuddy/skills/whiteboard-video/lib/tts-volc.mjs:74
+    if (++tries >= 4) throw new Error("TTS failed: " + sc.name);
+                            ^
+
+Error: TTS failed: 01-intro
+
+Node.js v22.22.2
+brand.json 期级覆盖: slogan
+Error: 缺少 audio/01-intro.json，先跑 wb tts
+    at infoFor (C:\Users\ADMIN\.workbuddy\skills\whiteboard-video\lib\render.js:80:22)
+    at main (C:\Users\ADMIN\.workbuddy\skills\whiteboard-video\lib\render.js:235:38)
+✘ 旅游-沧州 失败
+=== 队列结束 19:18:53

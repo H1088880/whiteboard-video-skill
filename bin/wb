@@ -4,12 +4,17 @@
 #   wb list                    列出所有期
 #   wb scenes <期>             生成 Excalidraw 场景 + script.json + 旁白稿.md
 #   wb stills <期>             导出每个 beat 的静帧到 <后台>/<期>/work/frames/（检查排版）
+#   wb timing <期> [场景]      时序体检：每段「旁白窗口 vs 绘制区间 vs 字幕」，查画面和字谁在前
+#   wb qc <期>                 出片质检：成片/三版封面/看片页/时序落后/元素越界，全绿才可交付
+#   wb audit                   贴纸体检：全期扫描「有没有景点还在用程序化图元 / 引用的贴纸是否缺失」
+#   wb lab [端口]              渲染实验室：起本地服务（默认 http://127.0.0.1:8791），拖动节奏/字幕旋钮即时看真实画面，满意后一键写回 config.json 并重渲
 #   wb image <期> name="英文描述" [最多4个]   codex 出白板贴纸 → <期>/assets/<name>.png
 #   wb logo <期> name="Commons 文件名.svg|搜索词" [--vs=a,b]   真实 Logo → <期>/assets/<name>.png（--search="词" 只列候选）
 #   wb tts <期> [scene]        火山克隆音配旁白
 #   wb render <期> [scene]     渲染 → <后台>/<期>/work/out/master.mp4
 #   wb mix <期> [gain]         混 BGM → <后台>/<期>/outputs/final.mp4
-#   wb cover <期>              出封面 → <期>/封面-4x3.png、封面-3x4.png（scenes.js 里 build 第三参 cover）
+#   wb 看片 <期> [输出目录]     出「看片.html」播放页（成片+封面+分镜抽帧拷进同目录）＝标准交付物
+#   wb cover <期>              出封面 → <期>/封面-4x3.png、封面-3x4.png、封面-16x9.png 三版（scenes.js 里 build 第三参 cover）
 #   wb build <期>              scenes + tts + render + mix + cover 一条龙，出片后自动 clean
 #   wb clean <期>              清中间产物：work/frames 静帧、work/out 里已不在场景表的旧分段（分段与 master 保留）
 #   wb open <期>               在 Finder 里打开期目录与后台目录
@@ -47,8 +52,13 @@ case "$cmd" in
   tts) P=$(resolve "$1"); shift; node lib/tts-volc.mjs "$P" "$@" 2>&1 | grep -vE "^\s+at " ;;
   render) P=$(resolve "$1"); shift; node lib/render.js "$P" "$@" ;;
   clean) P=$(resolve "$1"); node lib/render.js "$P" --clean ;;
+  timing) P=$(resolve "$1"); shift; node lib/timing.cjs "$P" "$@" ;;
+  qc) P=$(resolve "$1"); node lib/qc.cjs "$P" ;;
+  audit|体检) node lib/sticker-audit.cjs ;;
+  lab|实验室) shift; exec node lib/lab-server.cjs "$@" ;;
   cover) P=$(resolve "$1"); node "$P/scenes.js" >/dev/null; node lib/render.js "$P" --cover ;;
   mix) P=$(resolve "$1"); shift; node lib/mix-bgm.mjs "$P" "$@"; node "$P/scenes.js" >/dev/null ;;
+  看片) P=$(resolve "$1"); shift; node lib/watch-page.cjs "$P" "$@" ;;
   build)
     P=$(resolve "$1")
     node "$P/scenes.js"
@@ -58,6 +68,8 @@ case "$cmd" in
     node "$P/scenes.js" >/dev/null   # 刷新旁白稿里的时长与成片链接
     [ -f "$P/scenes/cover.json" ] && node lib/render.js "$P" --cover || echo "（没定义封面，跳过；见 wb cover）"
     node lib/render.js "$P" --clean
+    node lib/watch-page.cjs "$P"   # 标准交付物：看片.html（成片+封面+分镜抽帧）
+    node lib/qc.cjs "$P" || true   # 出片质检（不阻断，但会列出未通过项）
     echo "成片：$(finalOf "$P")"
     ;;
   open) P=$(resolve "$1"); wbOpen "$P"; S=$(studioOf "$P"); [ -d "$S" ] && wbOpen "$S" ;;
