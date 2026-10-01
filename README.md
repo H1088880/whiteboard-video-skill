@@ -8,7 +8,7 @@
 
 ## 先看样片
 
-**▶️ [assets/sample-preview.mp4](assets/sample-preview.mp4)**（《为什么你每天都不想上班》前 40 秒，点进去在 GitHub 页面里直接播放）。完整示例工程在 `examples/`，一条命令就能在你电脑上重新渲染出来。
+**▶️ [assets/sample-preview.mp4](assets/sample-preview.mp4)**（《为什么你每天都不想上班》前 40 秒，点进去在 GitHub 页面里直接播放）。想渲染完整成片：建一期模板跑 `wb build` 就行，见下方「使用」。
 
 <img src="assets/sample-preview.gif" width="640" alt="样片前 12 秒：标题一个字一个字写出来，铅笔跟着笔尖走，贴纸从左往右擦出，底部是字幕，右上角是品牌水印">
 
@@ -63,7 +63,6 @@
 | `scripts/make-samples.py` | 从任一期生成 README 用的样片资产（三版封面拼图 + 预览 mp4 + 预览 gif） |
 | `scripts/make-portable.cjs` | 把 skill 打成可移植副本，装到别的 Agent 平台（Codex / Claude Code） |
 | `templates/` | 每期 `scenes.js` 与 `发布.md` 模板 |
-| `examples/` | 一期完整示例：旁白、7 个场景、4 张贴纸、封面函数、资料来源、发布稿 |
 | `config.json` | 全部参数：目录、语速、配乐、笔速、字幕、品牌层、封面 |
 
 ## 环境
@@ -87,9 +86,9 @@ cd whiteboard-video-skill
 npm install
 cp .env.example .env          # 填火山凭证和音色
 
-# 先把示例渲染一遍，确认环境没问题
-mkdir -p episodes && cp -R examples/* episodes/
-bin/wb build 懂很多道理          # 约一分钟，成片在 build/<期>/outputs/final.mp4
+# 建一期试跑，确认环境没问题（模板 scenes.js 无贴纸引用，开箱即可渲染）
+bin/wb new "我的第一期"         # 建期目录 + 模板 scenes.js，把里面的占位文字换成你的内容
+bin/wb build 我的第一期         # 约一分钟，成片在 build/<期>/outputs/final.mp4
 ```
 
 然后把本仓库放进 AI 工具的 skills 目录（Claude Code 是 `~/.claude/skills/`，Codex 是 `~/.codex/skills/`，软链也行），对它说：
@@ -144,7 +143,6 @@ bash bin/wb mix "<期>"
 
 - 本项目代码与文档：MIT，见根目录 [`LICENSE`](LICENSE)。第三方组件与字体的来源、许可一并在该文件列明。
 - `assets/fonts/Xiaolai-Regular.ttf`：[小赖字体](https://github.com/lxgw/kose-font)，SIL Open Font License 1.1，许可证见 `assets/fonts/OFL.txt`。
-- `examples/` 里的贴纸由 codex 生成，随示例一起提供，可自由使用。
 - 用 `wb logo` 取到的公司 Logo 版权归各自所有者，只适合在评论和报道语境中原样使用。
 
 ---
